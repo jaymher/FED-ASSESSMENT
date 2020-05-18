@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<title>FED ASSESSMENT</title> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./JayAssesment.css">
+
+</head>
+ 
+<body style="background:linear-gradient(to bottom, #800000 0%, #FFFF00 100%);">
+
+	 <input type="image" id="cart" src="./cart.png" alt="Submit" width="40px" height="40px">
+	<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>List of Items</h2>
+    </div>
+    <div class="modal-body">
+      <ul id="myUL">		
+	</ul>
+    </div>
+    <div class="modal-footer">
+      <h3></h3>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="slideshow-container">
+	
+  <div class="mySlides1">
+    <img src="./ip1.jpg" style="width:50%">
+   <a href="#list"><button type="onclick" class="buynow" style="right:10%;color:black; background-color: red">Buy Now!</button></a>
+  </div>
+
+  <div class="mySlides1">
+    <img src="./ip2.jpg" style="width:50%">
+     <a href="#list"><button type="onclick" class="buynow" style="right:10%;color:black; background-color: red">Buy Now!</button></a>
+  </div>
+<div class="mySlides1">
+    <img src="./ip3.jpg" style="width:50%">
+     <a href="#list"><button type="onclick" class="buynow" style="right:10%;color:black; background-color: red">Buy Now!</button></a>
+  </div>
+  <div class="mySlides1">
+    <img src="./ip4.jpg" style="width:38.2%">
+     <a href="#list"><button type="onclick" class="buynow" style="right:10%;color:black; background-color: red">Buy Now!</button></a>
+  </div>
+  <div class="mySlides1">
+    <img src="./ip5.jpg" style="width:31.2%">
+     <a href="#list"><button type="onclick" class="buynow" style="right:10%;color:black; background-color: red">Buy Now!</button></a>
+  </div>
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<section id="list">
+	<div class="shoplist-container">
+		<div class="product ip1">
+			<img src="./ip1.jpg" style="width:100px;height:100px;margin:15px;">
+			<p id="ip1"> </p>
+			<input type="button" name="BUY" id="buy1" value="BUY" style="background-color: yellow"> 
+		</div>
+	 	 <div class="product ip2">
+	 	 	<img src="./ip2.jpg" style="width:100px;height:100px;margin:15px;">
+	 	 	<p id="ip2">  </p>
+	 	 	<input type="button" name="BUY" id="buy2" value="BUY" style="background-color: yellow"> 
+	 	 </div>
+	  	<div class="product ip3"><img src="./ip3.jpg" style="width:100px;height:100px;margin:15px;">
+	  		<p id="ip3">  </p>
+	  		<input type="button" name="BUY" id="buy3" value="BUY" style="background-color: yellow"> 
+	  	</div>
+	 	 <div class="product ip4">
+	 	 	<img src="./ip4.jpg" style="width:100px;height:100px;margin:15px;">
+	 	 	<p id="ip4">  </p>
+	 	 	<input type="button" name="BUY" id="buy4" value="BUY" style="background-color: yellow"> 
+	 	 </div>
+	 	 <div class="product ip5">
+	 	 	<img src="./ip5.jpg" style="width:100px;height:100px;margin:15px;">
+	 	 	<p id="ip5">  </p>
+	 	 	<input type="button" name="BUY" id="buy5" value="BUY" style="background-color: yellow"> 
+	 	 </div>
+	 	
+	</div>
+</section>
+<script src="./JayAssesment.js">
+</script>
+ 
+</body>
+</html> 
+
+
+
